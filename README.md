@@ -5,7 +5,7 @@
 ## 📁 Структура репозитория
 
 ```
-stressless/
+jmeter/
 ├── conf/                         # Конфигурационные файлы
 │   ├── global.properties         # Общие переменные и настройки для всех тестов, пути к файлам данных, конфигурация мониторинга
 ├── data/                         # Тестовые данные
@@ -53,14 +53,14 @@ stressless/
 Пример запуска из Linux терминала:
 
 ```bash
-root@linux:~/Desktop/stressless# (QA-3333)
+root@linux:~/Desktop/jmeter# (QA-3333)
 /path/to/apache-jmeter-5.6.3/bin/jmeter.sh -t tests/service_a/load.jmx -q conf/global.properties -q conf/files.properties
 ```
 
 Пример запуска из командной строки на Windows:
 
 ```bash
-C:\Users\QAPERF\Desktop\stressless>C:\Users\QAPERF\Path\To\apache-jmeter-5.6.3\bin\jmeter.bat -t tests\service_a\load.jmx -q conf\global.properties -q conf\files.properties
+C:\Users\QAPERF\Desktop\jmeter>C:\Users\QAPERF\Path\To\apache-jmeter-5.6.3\bin\jmeter.bat -t tests\service_a\load.jmx -q conf\global.properties -q conf\files.properties
 ```
 
 ### Анализ результатов локально
